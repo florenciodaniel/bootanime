@@ -15,7 +15,9 @@ and open the template in the editor.
             <h1>Este projeto visa criar nossas proprias animações para paginas</h1>
             <h1>Este projeto é recriado apartir de uma aula no youtube</h1>
             <a href="https://youtu.be/pKTOT63X9XQ" rel="nofollow" target="_blank"><h1>LINK DO YOUTUBE</h1></a>
+            <a href="https://html-css-js.com/css/generator/transform/" rel="nofollow" target="_blank"><h1>GERADOR DE EXEMPLOS</h1></a>
         </div>
+        <hr>
         <div class="container">
             <div class="data">
                 <p>data-boot_flip="esquerda"</p>
@@ -24,6 +26,7 @@ and open the template in the editor.
                 <img src="lolita_jft.jpg" alt=""/>
             </div>
         </div>
+        <hr>
         
         <div class="container">
             <div class="data">
@@ -33,6 +36,7 @@ and open the template in the editor.
                 <img src="lolita_jft.jpg" alt=""/>
             </div>
         </div>
+        <hr>
         
         <div class="container">
             <div class="data">
@@ -42,6 +46,7 @@ and open the template in the editor.
                 <img src="lolita_jft.jpg" alt=""/>
             </div>
         </div>
+        <hr>
         
         <div class="container">
             <div class="data">
@@ -51,6 +56,70 @@ and open the template in the editor.
                 <img src="lolita_jft.jpg" alt=""/>
             </div>
         </div>
+        <hr>
+        
+        <div class="container">
+            <div class="data">
+                <p>data-boot_aparecer="simples"</p>
+            </div>
+            <div class="box" data-boot_aparecer="simples">
+                <img src="lolita_jft.jpg" alt=""/>
+            </div>
+        </div>
+        <hr>
+        
+        <div class="container">
+            <div class="data">
+                <p>data-boot_aparecer="aparecer"</p>
+            </div>
+            <div class="box" data-boot_aparecer="aparecer">
+                <img src="lolita_jft.jpg" alt=""/>
+            </div>
+        </div>
+        <hr>
+        
+        
+        <div class="container">
+            <div class="data">
+                <p>data-boot_aparecer="rodopio"</p>
+            </div>
+            <div class="box" data-boot_aparecer="rodopio">
+                <img src="lolita_jft.jpg" alt=""/>
+            </div>
+        </div>
+        <hr>
+        
+        <div class="container">
+            <div class="data">
+                <p>data-boot_aparecer="dir"</p>
+            </div>
+            <div class="box" data-boot_aparecer="dir">
+                <img src="lolita_jft.jpg" alt=""/>
+            </div>
+        </div>
+        <hr>
+        
+        <div class="container">
+            <div class="data">
+                <p>data-boot_aparecer="mir"</p>
+            </div>
+            <div class="box" data-boot_aparecer="mir">
+                <img src="lolita_jft.jpg" alt=""/>
+            </div>
+        </div>
+        <hr>
+        
+        <div class="container">
+            <div class="data">
+                <p>data-boot_aparecer="tir"</p>
+            </div>
+            <div class="box" data-boot_aparecer="tir">
+                <img src="lolita_jft.jpg" alt=""/>
+            </div>
+        </div>
+        <hr>
+        
+        
 
 
         <script src="bootanime.js" type="text/javascript"></script>

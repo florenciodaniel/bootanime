@@ -115,7 +115,7 @@ hr {
 /*////////////////////////////*/
 [data-boot_flip="esquerda"]{
     opacity: 0;
-    transition: 2s;
+    transition: 1s;
     -moz-transform: translate(-150px, 0px);
     -webkit-transform: translate(-150px, 0px);
     -o-transform: translate(-150px, 0px);
@@ -124,7 +124,7 @@ hr {
 }
 [data-boot_flip="topo"]{
     opacity: 0;
-    transition: 2s;
+    transition: 1s;
     -moz-transform: translate(0px, -150px);
     -webkit-transform: translate(0px, -150px);
     -o-transform: translate(0px, -150px);
@@ -133,7 +133,7 @@ hr {
 }
 [data-boot_flip="baixo"]{
     opacity: 0;
-    transition: 2s;
+    transition: 1s;
     -moz-transform: translate(0px, 150px);
     -webkit-transform: translate(0px, 150px);
     -o-transform: translate(0px, 150px);
@@ -142,7 +142,7 @@ hr {
 }
 [data-boot_flip="direita"]{
     opacity: 0;
-    transition: 2s;
+    transition: 1s;
     -moz-transform: translate(150px, 0px);
     -webkit-transform: translate(150px, 0px);
     -o-transform: translate(150px, 0px);
@@ -161,17 +161,17 @@ hr {
 /*//////////////////////////*/
 [data-boot_aparecer="simples"]{
     opacity: 0;
-    transition: 2s;
+    transition: 1s;
 }
 
 [data-boot_aparecer="aparecer"]{
     opacity: 0;
-    transition: 2s;
+    transition: 1s;
    transform:  rotate(0deg) scale(0.108) skew(1deg) translate(0px);-webkit-transform:  rotate(0deg) scale(0.108) skew(1deg) translate(0px);-moz-transform: rotate(0deg) scale(0.108) skew(1deg) translate(0px);-o-transform:  rotate(0deg) scale(0.108) skew(1deg) translate(0px);-ms-transform:  rotate(0deg) scale(0.108) skew(1deg) translate(0px);
 }
 [data-boot_aparecer="rodopio"]{
     opacity: 0;
-    transition: 2s;
+    transition: 1s;
    -moz-transform: scale(0.1) rotate(360deg);
 -webkit-transform: scale(0.1) rotate(360deg);
 -o-transform: scale(0.1) rotate(360deg);
@@ -181,7 +181,7 @@ transform: scale(0.1) rotate(360deg);
 
 [data-boot_aparecer="dir"]{
     opacity: 0;
-    transition: 2s;
+    transition: 1s;
    -moz-transform: scale(0.3) translate(150px, 0px) skew(68deg, 0deg);
 -webkit-transform: scale(0.3) translate(150px, 0px) skew(68deg, 0deg);
 -o-transform: scale(0.3) translate(150px, 0px) skew(68deg, 0deg);
@@ -191,7 +191,7 @@ transform: scale(0.3) translate(150px, 0px) skew(68deg, 0deg);
 
 [data-boot_aparecer="mir"]{
     opacity: 0;
-    transition: 2s;
+    transition: 1s;
    -moz-transform: scale(0.3) translate(0px, 150px) skew(-68deg, 0deg);
 -webkit-transform: scale(0.3) translate(0px, 150px) skew(-68deg, 0deg);
 -o-transform: scale(0.3) translate(0px, 150px) skew(-68deg, 0deg);
@@ -201,7 +201,7 @@ transform: scale(0.3) translate(0px, 150px) skew(-68deg, 0deg);
 
 [data-boot_aparecer="tir"]{
     opacity: 0;
-    transition: 2s;
+    transition: 1s;
    -moz-transform: scale(2) rotate(181deg);
 -webkit-transform: scale(2) rotate(181deg);
 -o-transform: scale(2) rotate(181deg);

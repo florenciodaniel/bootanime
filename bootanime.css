@@ -132,11 +132,11 @@ hr {
 [data-bootanime="esquerda"]{
     opacity: 0;
     transition: 1s;
-    -moz-transform: translate(-25%, 0px);
-    -webkit-transform: translate(-25%, 0px);
-    -o-transform: translate(-25%, 0px);
-    -ms-transform: translate(-25%, 0px);
-    transform: translate(-25%, 0px);
+    -moz-transform: translate(-150px, 0px);
+    -webkit-transform: translate(-150px, 0px);
+    -o-transform: translate(-150px, 0px);
+    -ms-transform: translate(-150px, 0px);
+    transform: translate(-150px, 0px);
 }
 [data-bootanime="esquerda-rodo"]{
     opacity: 0;

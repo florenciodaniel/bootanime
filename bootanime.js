@@ -90,29 +90,7 @@ if(boot_flip.length) {
     data_boot_flip();
   }, 100));
 }
-//----------------
 
-const boot_aparecer = document.querySelectorAll('[data-boot_aparecer]');
-const animation_boot_aparecer = 'data-boot_aparecer';
-
-function data_boot_aparecer() {
-  const windowTop = window.pageYOffset + (window.innerHeight * 0.80);
-  boot_aparecer.forEach(function(element) {
-    if((windowTop) > element.offsetTop) {
-      element.classList.add(animation_boot_aparecer);
-    } else {
-      element.classList.remove(animation_boot_aparecer);
-    }
-  })
-}
-
-data_boot_aparecer();
-
-if(boot_aparecer.length) {
-  window.addEventListener('scroll', debounce(function() {
-    data_boot_aparecer();
-  }, 100));
-}
 //------------------------------------------
 
 //-------------------------------------------
@@ -121,6 +99,7 @@ const boot_teste = document.querySelectorAll('[data-boot_teste]');
 const animation_boot_teste = 'data-boot_teste';
 
 function data_boot_teste() {
+    
   const windowTop = window.pageYOffset + (window.innerHeight * 0.80);
   boot_teste.forEach(function(element) {
     if((windowTop) > element.offsetTop) {

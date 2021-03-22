@@ -129,16 +129,16 @@ hr {
 }*/
 
 /*////////////////////////////*/
-[data-boot_flip="esquerda"]{
+[data-bootanime="esquerda"]{
     opacity: 0;
     transition: 1s;
-    -moz-transform: translate(-150px, 0px);
-    -webkit-transform: translate(-150px, 0px);
-    -o-transform: translate(-150px, 0px);
-    -ms-transform: translate(-150px, 0px);
-    transform: translate(-150px, 0px);
+    -moz-transform: translate(-25%, 0px);
+    -webkit-transform: translate(-25%, 0px);
+    -o-transform: translate(-25%, 0px);
+    -ms-transform: translate(-25%, 0px);
+    transform: translate(-25%, 0px);
 }
-[data-boot_flip="esquerda-rodo"]{
+[data-bootanime="esquerda-rodo"]{
     opacity: 0;
     transition: 1s;
     -moz-transform: translate(-150px, 0px) rotate(-180deg) ;
@@ -149,7 +149,7 @@ hr {
     
 }
 
-[data-boot_flip="topo"]{
+[data-bootanime="topo"]{
     opacity: 0;
     transition: 1s;
     -moz-transform: translate(0px, -150px);
@@ -158,7 +158,7 @@ hr {
     -ms-transform: translate(0px, -150px);
     transform: translate(0px, -150px);
 }
-[data-boot_flip="topo-direita"]{
+[data-bootanime="topo-direita"]{
     opacity: 0;
     transition: 1s;
     -moz-transform: translate(150px, -150px);
@@ -167,7 +167,7 @@ hr {
 -ms-transform: translate(150px, -150px);
 transform: translate(150px, -150px)
 }
-[data-boot_flip="topo-esquerda"]{
+[data-bootanime="topo-esquerda"]{
     opacity: 0;
     transition: 1s;
     -moz-transform: translate(-150px, -150px);
@@ -176,7 +176,7 @@ transform: translate(150px, -150px)
 -ms-transform: translate(-150px, -150px);
 transform: translate(-150px, -150px);
 }
-[data-boot_flip="baixo"]{
+[data-bootanime="baixo"]{
     opacity: 0;
     transition: 1s;
     -moz-transform: translate(0px, 150px);
@@ -185,7 +185,7 @@ transform: translate(-150px, -150px);
     -ms-transform: translate(0px, 150px);
     transform: translate(0px, 150px);
 }
-[data-boot_flip="baixo-direita"]{
+[data-bootanime="baixo-direita"]{
     opacity: 0;
     transition: 1s;
     -moz-transform: translate(150px, 150px);
@@ -194,7 +194,7 @@ transform: translate(-150px, -150px);
 -ms-transform: translate(150px, 150px);
 transform: translate(150px, 150px);
 }
-[data-boot_flip="baixo-esquerda"]{
+[data-bootanime="baixo-esquerda"]{
     opacity: 0;
     transition: 1s;
     -moz-transform: translate(-150px, 150px) skew(-1deg, 0deg);
@@ -203,7 +203,7 @@ transform: translate(150px, 150px);
 -ms-transform: translate(-150px, 150px) skew(-1deg, 0deg);
 transform: translate(-150px, 150px) skew(-1deg, 0deg);
 }
-[data-boot_flip="direita"]{
+[data-bootanime="direita"]{
     opacity: 0;
     transition: 1s;
     -moz-transform: translate(150px, 0px);
@@ -212,7 +212,7 @@ transform: translate(-150px, 150px) skew(-1deg, 0deg);
     -ms-transform: translate(150px, 0px);
     transform: translate(150px, 0px);
 }
-[data-boot_flip="direita-rodo"]{
+[data-bootanime="direita-rodo"]{
     opacity: 0;
     transition: 1s;
     -moz-transform: translate(150px, 0px) rotate(180deg) ;
@@ -223,7 +223,7 @@ transform: translate(-150px, 150px) skew(-1deg, 0deg);
     
 }
 
-[data-boot_flip].data-boot_flip{
+[data-bootanime].data-bootanime{
     opacity: 1;
     -moz-transform: none;
     -webkit-transform: none;
@@ -232,17 +232,17 @@ transform: translate(-150px, 150px) skew(-1deg, 0deg);
     transform:none;
 }
 /*//////////////////////////*/
-[data-boot_aparecer="simples"]{
+[data-bootanime="simples"]{
     opacity: 0;
     transition: 1s;
 }
 
-[data-boot_aparecer="aparecer"]{
+[data-bootanime="aparecer"]{
     opacity: 0;
     transition: 1s;
    transform:  rotate(0deg) scale(0.108) skew(1deg) translate(0px);-webkit-transform:  rotate(0deg) scale(0.108) skew(1deg) translate(0px);-moz-transform: rotate(0deg) scale(0.108) skew(1deg) translate(0px);-o-transform:  rotate(0deg) scale(0.108) skew(1deg) translate(0px);-ms-transform:  rotate(0deg) scale(0.108) skew(1deg) translate(0px);
 }
-[data-boot_aparecer="rodopio-simples"]{
+[data-bootanime="rodopio-simples"]{
     opacity: 0;
     transition: 1s;
    -moz-transform: scale(0.1) rotate(180deg);
@@ -251,7 +251,7 @@ transform: translate(-150px, 150px) skew(-1deg, 0deg);
 -ms-transform: scale(0.1) rotate(180deg);
 transform: scale(0.1) rotate(180deg);
 }
-[data-boot_aparecer="rodopio-normal"]{
+[data-bootanime="rodopio-normal"]{
     opacity: 0;
     transition: 1s;
    -moz-transform: scale(0.1) rotate(360deg);
@@ -260,7 +260,7 @@ transform: scale(0.1) rotate(180deg);
 -ms-transform: scale(0.1) rotate(360deg);
 transform: scale(0.1) rotate(360deg);
 }
-[data-boot_aparecer="rodopio-ultra"]{
+[data-bootanime="rodopio-ultra"]{
     opacity: 0;
     transition: 1s;
    -moz-transform: scale(0.1) rotate(720deg);
@@ -270,7 +270,7 @@ transform: scale(0.1) rotate(360deg);
 transform: scale(0.1) rotate(720deg);
 }
 
-[data-boot_aparecer="dir"]{
+[data-bootanime="dir"]{
     opacity: 0;
     transition: 1s;
    -moz-transform: scale(0.3) translate(150px, 0px) skew(68deg, 0deg);
@@ -280,7 +280,7 @@ transform: scale(0.1) rotate(720deg);
 transform: scale(0.3) translate(150px, 0px) skew(68deg, 0deg);
 }
 
-[data-boot_aparecer="esq"]{
+[data-bootanime="esq"]{
     opacity: 0;
     transition: 1s;
    -moz-transform: scale(0.3) translate(-150px, 0px) skew(-68deg, 0deg);
@@ -289,7 +289,7 @@ transform: scale(0.3) translate(150px, 0px) skew(68deg, 0deg);
 -ms-transform: scale(0.3) translate(-150px, 0px) skew(-68deg, 0deg);
 transform: scale(0.3) translate(-150px, 0px) skew(-68deg, 0deg);
 }
-[data-boot_aparecer="fora"]{
+[data-bootanime="fora"]{
     opacity: 0;
     transition: 1s;
    -moz-transform: scale(2);
@@ -298,7 +298,7 @@ transform: scale(0.3) translate(-150px, 0px) skew(-68deg, 0deg);
 -ms-transform: scale(2);
 transform: scale(2);
 }
-[data-boot_aparecer="fora-rodo"]{
+[data-bootanime="fora-rodo"]{
     opacity: 0;
     transition: 1s;
    -moz-transform: scale(2) rotate(181deg);
@@ -309,7 +309,7 @@ transform: scale(2) rotate(181deg);
 }
 
 
-[data-boot_aparecer].data-boot_aparecer{
+[data-bootanime].data-bootanime{
     opacity: 1;
     -moz-transform: none;
     -webkit-transform: none;
@@ -318,14 +318,21 @@ transform: scale(2) rotate(181deg);
     transform:none;
 }
 
+/*exemplo de teste*/
+
+[data-boot_teste] {
+/*  opacity: 0;
+  transition: .3s;*/
+}
+
 [data-boot_teste="teste"]{
     opacity: 0;
     transition: 1s;
-   -moz-transform: rotate(720deg);
--webkit-transform: rotate(720deg);
--o-transform: rotate(720deg);
--ms-transform: rotate(720deg);
-transform: rotate(720deg);
+    -moz-transform: translate(-25%, 0px);
+    -webkit-transform: translate(-25%, 0px);
+    -o-transform: translate(-25%, 0px);
+    -ms-transform: translate(-25%, 0px);
+    transform: translate(-25%, 0px);
 }
 
 

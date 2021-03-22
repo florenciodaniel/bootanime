@@ -69,8 +69,8 @@ const debounce = function(func, wait, immediate) {
 };
 
 
-const boot_flip = document.querySelectorAll('[data-boot_flip]');
-const animation_boot_flip = 'data-boot_flip';
+const boot_flip = document.querySelectorAll('[data-bootanime]');
+const animation_boot_flip = 'data-bootanime';
 
 function data_boot_flip() {
   const windowTop = window.pageYOffset + (window.innerHeight * 0.80);
@@ -128,7 +128,7 @@ function data_boot_teste() {
     } else {
       element.classList.remove(animation_boot_teste);
     }
-  })
+  });
 }
 
 data_boot_teste();
